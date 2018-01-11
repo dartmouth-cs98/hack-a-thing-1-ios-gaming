@@ -131,8 +131,16 @@ extension GameScene {
         let topWall = SKSpriteNode(imageNamed: "pillar")
         let btmWall = SKSpriteNode(imageNamed: "pillar")
         
-        topWall.position = CGPoint(x: self.frame.width + 25, y: self.frame.height / 2 + 360)
-        btmWall.position = CGPoint(x: self.frame.width + 25, y: self.frame.height / 2 - 360)
+        var randomPosition = random(min: 1, max: 10)
+        var gapSize = CGFloat(385)
+        if (randomPosition == 1) {
+            gapSize = CGFloat(375)
+        } else if (randomPosition < 6) {
+            gapSize = CGFloat(395)
+        }
+        
+        topWall.position = CGPoint(x: self.frame.width + 25, y: self.frame.height / 2 + gapSize)
+        btmWall.position = CGPoint(x: self.frame.width + 25, y: self.frame.height / 2 - gapSize)
         
         topWall.setScale(0.5)
         btmWall.setScale(0.5)
@@ -159,7 +167,7 @@ extension GameScene {
         wallPair.zPosition = 1
 
         // randomize where the gap in the wall occurs vertically
-        let randomPosition = random(min: -200, max: 200)
+        randomPosition = random(min: -200, max: 200)
         wallPair.position.y = wallPair.position.y +  randomPosition
        
         // add the pig to the wall
