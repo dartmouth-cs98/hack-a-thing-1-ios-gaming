@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		602DE3382006CE1000D14D05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602DE3372006CE1000D14D05 /* AppDelegate.swift */; };
+		602DE33A2006CE1000D14D05 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 602DE3392006CE1000D14D05 /* GameScene.sks */; };
+		602DE33C2006CE1000D14D05 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 602DE33B2006CE1000D14D05 /* Actions.sks */; };
+		602DE33E2006CE1000D14D05 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602DE33D2006CE1000D14D05 /* GameScene.swift */; };
+		602DE3402006CE1000D14D05 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602DE33F2006CE1000D14D05 /* GameViewController.swift */; };
+		602DE3432006CE1000D14D05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602DE3412006CE1000D14D05 /* Main.storyboard */; };
+		602DE3452006CE1000D14D05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 602DE3442006CE1000D14D05 /* Assets.xcassets */; };
+		602DE3482006CE1000D14D05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602DE3462006CE1000D14D05 /* LaunchScreen.storyboard */; };
+		602DE3512006CE6E00D14D05 /* player.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 602DE34F2006CE6E00D14D05 /* player.atlas */; };
+		602DE3522006CE6E00D14D05 /* CoinSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 602DE3502006CE6E00D14D05 /* CoinSound.mp3 */; };
+		602DE3542006CEC800D14D05 /* GameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602DE3532006CEC800D14D05 /* GameElements.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		602DE3342006CE1000D14D05 /* Flangry Bird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flangry Bird.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		602DE3372006CE1000D14D05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		602DE3392006CE1000D14D05 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		602DE33B2006CE1000D14D05 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		602DE33D2006CE1000D14D05 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		602DE33F2006CE1000D14D05 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		602DE3422006CE1000D14D05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		602DE3442006CE1000D14D05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		602DE3472006CE1000D14D05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		602DE3492006CE1000D14D05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		602DE34F2006CE6E00D14D05 /* player.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = player.atlas; sourceTree = "<group>"; };
+		602DE3502006CE6E00D14D05 /* CoinSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CoinSound.mp3; sourceTree = "<group>"; };
+		602DE3532006CEC800D14D05 /* GameElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameElements.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		602DE3312006CE1000D14D05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		602DE32B2006CE1000D14D05 = {
+			isa = PBXGroup;
+			children = (
+				602DE3362006CE1000D14D05 /* Flangry Bird */,
+				602DE3352006CE1000D14D05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		602DE3352006CE1000D14D05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				602DE3342006CE1000D14D05 /* Flangry Bird.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		602DE3362006CE1000D14D05 /* Flangry Bird */ = {
+			isa = PBXGroup;
+			children = (
+				602DE3502006CE6E00D14D05 /* CoinSound.mp3 */,
+				602DE34F2006CE6E00D14D05 /* player.atlas */,
+				602DE3372006CE1000D14D05 /* AppDelegate.swift */,
+				602DE3392006CE1000D14D05 /* GameScene.sks */,
+				602DE33B2006CE1000D14D05 /* Actions.sks */,
+				602DE33D2006CE1000D14D05 /* GameScene.swift */,
+				602DE3532006CEC800D14D05 /* GameElements.swift */,
+				602DE33F2006CE1000D14D05 /* GameViewController.swift */,
+				602DE3412006CE1000D14D05 /* Main.storyboard */,
+				602DE3442006CE1000D14D05 /* Assets.xcassets */,
+				602DE3462006CE1000D14D05 /* LaunchScreen.storyboard */,
+				602DE3492006CE1000D14D05 /* Info.plist */,
+			);
+			path = "Flangry Bird";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		602DE3332006CE1000D14D05 /* Flangry Bird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 602DE34C2006CE1000D14D05 /* Build configuration list for PBXNativeTarget "Flangry Bird" */;
+			buildPhases = (
+				602DE3302006CE1000D14D05 /* Sources */,
+				602DE3312006CE1000D14D05 /* Frameworks */,
+				602DE3322006CE1000D14D05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flangry Bird";
+			productName = Flappy;
+			productReference = 602DE3342006CE1000D14D05 /* Flangry Bird.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		602DE32C2006CE1000D14D05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Kooshul Jhaveri";
+				TargetAttributes = {
+					602DE3332006CE1000D14D05 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 602DE32F2006CE1000D14D05 /* Build configuration list for PBXProject "Flangry Bird" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 602DE32B2006CE1000D14D05;
+			productRefGroup = 602DE3352006CE1000D14D05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				602DE3332006CE1000D14D05 /* Flangry Bird */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		602DE3322006CE1000D14D05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602DE3522006CE6E00D14D05 /* CoinSound.mp3 in Resources */,
+				602DE3512006CE6E00D14D05 /* player.atlas in Resources */,
+				602DE3432006CE1000D14D05 /* Main.storyboard in Resources */,
+				602DE33A2006CE1000D14D05 /* GameScene.sks in Resources */,
+				602DE3452006CE1000D14D05 /* Assets.xcassets in Resources */,
+				602DE3482006CE1000D14D05 /* LaunchScreen.storyboard in Resources */,
+				602DE33C2006CE1000D14D05 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		602DE3302006CE1000D14D05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602DE3542006CEC800D14D05 /* GameElements.swift in Sources */,
+				602DE33E2006CE1000D14D05 /* GameScene.swift in Sources */,
+				602DE3402006CE1000D14D05 /* GameViewController.swift in Sources */,
+				602DE3382006CE1000D14D05 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		602DE3412006CE1000D14D05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				602DE3422006CE1000D14D05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		602DE3462006CE1000D14D05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				602DE3472006CE1000D14D05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		602DE34A2006CE1000D14D05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		602DE34B2006CE1000D14D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		602DE34D2006CE1000D14D05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5R4G55S6SC;
+				INFOPLIST_FILE = "Flangry Bird/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.FlangryBird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		602DE34E2006CE1000D14D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5R4G55S6SC;
+				INFOPLIST_FILE = "Flangry Bird/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.FlangryBird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		602DE32F2006CE1000D14D05 /* Build configuration list for PBXProject "Flangry Bird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				602DE34A2006CE1000D14D05 /* Debug */,
+				602DE34B2006CE1000D14D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		602DE34C2006CE1000D14D05 /* Build configuration list for PBXNativeTarget "Flangry Bird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				602DE34D2006CE1000D14D05 /* Debug */,
+				602DE34E2006CE1000D14D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 602DE32C2006CE1000D14D05 /* Project object */;
+}
