@@ -192,7 +192,7 @@ class GameScene: SKScene , SKPhysicsContactDelegate {
                 self.removeAllActions()
             }))
             // trigger the end of game scene elements
-            if isDied == false{
+            if isDied == false {
                 isDied = true
                 createRestartBtn()
                 pauseBtn.removeFromParent()
